@@ -1,3 +1,5 @@
+
+img{max-width: 100%;}
 /*---- Web Fonts ----*/
 
 @font-face{
@@ -16,7 +18,21 @@ Media Queries
   }
 }
 
+.name{
+  float: left;
+}
+.main-nav{
+  float:right;
+}
+.main-nav li{
+  display: inline-block;
+  margin-left: 15px;
+}
+.tagline{
+  font-size: 1.4em;
+}
 /*----layout containers---*/
+
 .container {
   padding-left: 1em;
   padding-right: 1em;
