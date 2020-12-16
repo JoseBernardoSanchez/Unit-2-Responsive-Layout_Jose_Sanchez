@@ -1,19 +1,17 @@
 /*---- Web Fonts ----*/
 
 @font-face{
-font-family: Main Font;
-src:https://fonts.google.com/specimen/Indie+Flower#pairings ;
-
+font-family: 'Indie Flower', cursive;
+src:url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
 }
 
 /* ===============
 Media Queries
 ================*/
 
-@media (min-width: 320px) {
+@media (min-width: 769px) {
   .container {
-    width: 70%;
-    max-width: 1024px;
+    width: 90%;
     margin: 0 auto;
   }
 }
@@ -22,4 +20,7 @@ Media Queries
 .container {
   padding-left: 1em;
   padding-right: 1em;
+}
+b{
+  font-family: 'Indie Flower';
 }
