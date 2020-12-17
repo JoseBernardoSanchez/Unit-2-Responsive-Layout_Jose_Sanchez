@@ -7,6 +7,30 @@ font-family: 'Indie Flower', cursive;
 src:url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
 }
 
+.name {
+  display: block;
+  width: 100%;
+  text-align: center;
+}.top-nav {
+  margin: 0;
+  padding: 0;
+  display: block;
+  list-style-type: none;
+  text-align: center;
+}.top-nav li {
+  padding: 8px 0px;
+  margin: 2px 0px;
+  background-color: #ddd;
+}img,
+.profile-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /* ===============
 Media Queries
 ================*/
@@ -19,12 +43,12 @@ Media Queries
 }
 
 .name{
-  float: left;
+  float: 0 auto;
 }
-.main-nav{
-  float:right;
+header ul{
+  float: auto;;
 }
-.main-nav li{
+header ul{
   display: inline-block;
   margin-left: 15px;
 }
