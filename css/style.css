@@ -99,5 +99,15 @@ Media Queries
     max-width: 1000px;
     margin: 0 auto;
   }
-
+  .name{
+    float: left;
+  }
+  .main-nav{
+    float: right;
+  }
+  .main-nav li{
+    display: inline-block;
+    margin-left: 15px;
+  }
+  
 }
