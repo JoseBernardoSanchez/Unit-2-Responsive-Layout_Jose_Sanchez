@@ -1,43 +1,103 @@
-
+*{
+  text-align: center;
+}
 img{max-width: 100%;}
 /*---- Web Fonts ----*/
-
+body{
+  margin: 0%;
+}
 @font-face{
 font-family: 'Indie Flower', cursive;
 src:url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
 }
+a{
+  text-decoration: none; color: black;
+}
+.paddingpics{
+  padding: 4px 4px;
+}
+header{
+  background-color:rgb(247, 247, 247);
+  padding: 0px  8px ;
+}
+footer{
+  background-color:rgb(247, 247, 247);
+  padding: 8px 8px;
+  padding-bottom: 8px;
+  margin-bottom: 0%;}
+  
+.colour {
+    background-color:rgb(247, 247, 247);
+   
+   }
 b{
   font-family: 'Indie Flower';
   text-align:center;
-}
-h2{
-  text-align: center;
   
+  }
+
+h2 {
+  text-align: center;
 }
+
 .name {
   display: block;
   width: 100%;
   text-align: center;
-}.top-nav {
+  padding-top: 12px;
+  margin-top: 0%;
+}
+
+.top-nav {
   margin: 0;
   padding: 0;
   display: block;
   list-style-type: none;
   text-align: center;
-}.top-nav li {
+}
+
+.top-nav li {
   padding: 8px 0px;
   margin: 2px 0px;
   background-color: rgb(255, 255, 255);
-}img,
+}
+
+img,
 .profile-image {
   display: block;
   margin: 20px auto;
   max-width: 100%;
-}.clearfix::after {
+}
+
+.clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
+.line{
+  border-bottom: 2px solid lightgrey;
+}
+
+.fr{
+float: right;
+background-color:rgb(247, 247, 247);
+}
+.fl{
+  float: left; padding: 0%;
+  background-color:rgb(247, 247, 247);
+}
+
+.bottom-nav{
+display: none;
+}
 /* ===============
 Media Queries
 ================*/
+@media (min-width: 769px) {
+  .container{
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+}
