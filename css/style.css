@@ -48,7 +48,6 @@ h2 {
   padding-top: 12px;
   margin-top: 0%;
 }
-
 .top-nav {
   margin: 0;
   padding: 0;
@@ -56,7 +55,6 @@ h2 {
   list-style-type: none;
   text-align: center;
 }
-
 .top-nav li {
   padding: 8px 0px;
   margin: 2px 0px;
@@ -101,30 +99,81 @@ Media Queries
     max-width: 1000px;
     margin: 0 auto;
   }
-  .name{
-    float: left;
+  header p{
+    font-size: 125%;
   }
-  .main-nav{
+  .about-me{
+    padding-top: 15px;
+    text-align: left;
+  }
+  .profile-image{
     float: right;
+    padding-left: 15px;
   }
-  .main-nav li{
+  .top-nav li{
     display: inline-block;
     margin-left: 15px;
+    background-color: rgb(247, 247, 247);  
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
   }
   .paddingpics{
     float: left;
     width: 50%;
   }
+  .nav-pad{
+    padding: 15px;
+  }
+  .fr{
+  display: none;
+  }
+  footer .bottom-nav{
+  float: right; 
+  margin: 10px;
+  display: block;  
+  list-style: none;
+  }
+  footer .bottom-nav li{
+  display: inline;
+  }
+}
+
+@media(min-width:1024px) {
+  .container{
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .top-nav li{
+    display: inline-block;
+    margin-left: 15px;
+    background-color: rgb(247, 247, 247);
+  }
+  .paddingpics{
+    float: left;
+    width: 33%;
+  }
 .fr{
   display: none;
 }
-footer .bottom-nav{
-  display:inline;
-  float: right; 
+  footer .bottom-nav{
+  display: inline;
+  float: right;
+  margin: 10px; 
   padding: 0%;
   list-style: none;
 }
-footer .bottom-nav li{
+.name{
+  float: left;
+  display: inline;
+}
+.top-nav{
+  display: inline;
+  float: right;
+}
+  footer .bottom-nav li{
   display: inline;;
 }
 }
