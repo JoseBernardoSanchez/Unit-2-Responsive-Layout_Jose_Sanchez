@@ -43,7 +43,6 @@ h2 {
 
 .name {
   display: block;
-  width: 100%;
   text-align: center;
   padding-top: 12px;
   margin-top: 0%;
@@ -172,6 +171,7 @@ Media Queries
 .top-nav{
   display: inline;
   float: right;
+  margin-top: 20px;
 }
   footer .bottom-nav li{
   display: inline;;
